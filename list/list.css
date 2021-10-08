@@ -1,0 +1,40 @@
+
+.list{
+    display: flex;
+   flex-direction: column;
+}
+button{
+    margin-top: 17px;
+    margin-left: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.big{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+label{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label:hover{
+    font-size: 20px;
+}
+.but{
+    background-color: #5F6368;
+    border: solid #5F6368 3px;
+    border-radius: 8px;
+    color: white;
+}
+div{
+    margin-top: 7px;
+}
+button:hover{
+    transition: 1s;
+    background-color: #242527 ;
+    border: solid #242527 3px;
+}
