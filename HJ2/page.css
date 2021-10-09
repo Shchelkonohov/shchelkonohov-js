@@ -1,124 +1,147 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  }  
-  
-  
-  
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .alma-materall {
-   margin: auto; 
-   width: 50%;
-  
-   
+    margin: auto;
+    width: 50%;
+
+
 
 }
 
-.first1{
+.first1 {
     width: 100%;
     display: flex;
-   height: 305px;
-   border: solid 0px black;
-   border-bottom-left-radius: 10px;
-   border-bottom-right-radius: 10px;
-   
+    height: 305px;
+    border: solid 0px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
-.first2{
+
+.first2 {
     width: 100%;
     display: flex;
-   height: 305px;
-   border: solid 0px black;
-   border-top-right-radius: 10px;
-   border-top-left-radius: 10px;
-   
+    height: 305px;
+    border: solid 0px black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
 }
+
 .padding {
     margin-left: 35px;
 }
-h1,h2,h3,h4,h5,p,li,ul{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li,
+ul {
     font-family: 'Montserrat', sans-serif;
-    
-    
+
+
 
 }
 
-ul{
+ul {
     margin-left: 40px;
 }
 
-h2{
+h2 {
     font-size: 30px;
-    
+
     margin-bottom: 20px;
 
 }
-h1{
+
+h1 {
     font-size: 60px;
-    
+
     margin-bottom: 12px;
 }
-p{
+
+p {
     font-size: 16px;
     margin-bottom: 10px;
 }
-a{
+
+a {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #684F4F;
 }
 
-.red{
+.red {
     color: #FB6D3A;
-    margin-top:10px;
+    margin-top: 10px;
     font-size: 17px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
-.gray{
+.gray {
     color: #ABABAB;
-    margin-top:10px;
+    margin-top: 10px;
     font-size: 13px;
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
-li{
+
+li {
     font-size: 16px;
-    
+
 }
-ol{
-    margin:10px;
+
+ol {
+    margin: 10px;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
 }
-.line,.linne{
+
+.line,
+.linne {
     width: 170px;
     border: 1 px solid black;
 }
-.date{
+
+.date {
     width: 130px;
 }
 
-label{
+label {
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .b {
-width: 85px;
+    width: 85px;
 }
-.lab0{
-    margin-top:5px;
+
+.lab0 {
+    margin-top: 5px;
 }
-.buttons{
+
+.buttons {
     display: flex;
     flex-direction: row;
 }
-.bb{
+
+.bb {
     width: 85px;
 }
-body{
+
+body {
     background-color: #FAE5D3;
 }
