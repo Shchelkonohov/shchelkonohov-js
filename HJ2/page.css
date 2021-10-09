@@ -1,13 +1,124 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  }  
+  
+  
+  
 .alma-materall {
    margin: auto; 
-   width: 60%;
-   
+   width: 50%;
+  
    
 
 }
 
-.first{
+.first1{
     width: 100%;
     display: flex;
-   height: 350px;
+   height: 305px;
+   border: solid 0px black;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   
+}
+.first2{
+    width: 100%;
+    display: flex;
+   height: 305px;
+   border: solid 0px black;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   
+}
+.padding {
+    margin-left: 35px;
+}
+h1,h2,h3,h4,h5,p,li,ul{
+    font-family: 'Montserrat', sans-serif;
+    
+    
+
+}
+
+ul{
+    margin-left: 40px;
+}
+
+h2{
+    font-size: 30px;
+    
+    margin-bottom: 20px;
+
+}
+h1{
+    font-size: 60px;
+    
+    margin-bottom: 12px;
+}
+p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+a{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #684F4F;
+}
+
+.red{
+    color: #FB6D3A;
+    margin-top:10px;
+    font-size: 17px;
+    margin-bottom:10px;
+}
+
+.gray{
+    color: #ABABAB;
+    margin-top:10px;
+    font-size: 13px;
+    margin-bottom:25px;
+}
+li{
+    font-size: 16px;
+    
+}
+ol{
+    margin:10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.line,.linne{
+    width: 170px;
+    border: 1 px solid black;
+}
+.date{
+    width: 130px;
+}
+
+label{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.b {
+width: 85px;
+}
+.lab0{
+    margin-top:5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.bb{
+    width: 85px;
+}
+body{
+    background-color: #FAE5D3;
 }
