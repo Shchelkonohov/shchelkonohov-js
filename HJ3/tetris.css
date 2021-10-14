@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;}
+
+
+    
+
+
+
+
+
+.box1{
+    width: 500px;
+    height: 500px;
+    border: solid black;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+.box2 {
+    width: 470px;
+    height: 470px;
+    border: solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.box3 {
+    width: 440px;
+    height: 440px;
+    border: solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 12px;
+
+}
