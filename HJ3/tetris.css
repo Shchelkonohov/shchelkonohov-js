@@ -47,6 +47,7 @@
 .violet {
   margin-left: 355px;
   margin-top: 495px;
+  
 }
 
 .v {
@@ -56,14 +57,30 @@
 .red {
   margin-top: -210px;
   margin-left: 285px;
+  margin-bottom: 0px;
+  width: 210px;
+  position:absolute;
+  height: 150px;
+  transition: 1s;
+  
+
+  
+  
 }
+.red:hover{
+margin-top: -141px;
+margin-left: 285px;
+
+
+}
+
 
 .r {
   background-color: red;
 }
 
 .coral {
-  margin-top: -210px;
+  margin-top: -285px;
   margin-left: 210px;
 }
 
@@ -75,6 +92,7 @@
 .green {
   margin-left: 4px;
   margin-top: -140px;
+  
 }
 
 .g {
@@ -88,15 +106,16 @@
 
 .gray {
   transform: rotate(180deg);
-
-  margin-top: -431px;
   margin-right: 355px;
+  margin-top: -422px; 
+  transition: 1s;
 
-  /* для помилки таку, яку ти зробив, закоментуй те що зверху */
-  /* і розкоментуй те, що знизу */
+}
 
-  /* margin-right: 355px;
-margin-top: -422px; */
+.gray:hover{
+margin-top: -291px;
+margin-right: 355px;
+
 }
 
 .gr {
@@ -110,3 +129,21 @@ margin-top: -422px; */
 .b {
   margin-top: 5px;
 }
+
+/* .violet::after {
+  content: ;
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+}
+
+@keyframes slidein {
+  from {
+    width: 300%;
+  }
+
+  to {
+    margin-top: 565px;
+    
+  }
+} */
