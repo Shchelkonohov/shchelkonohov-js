@@ -1,0 +1,240 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.all{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+
+
+
+}
+.row{
+display: flex;
+width: 100%;
+
+
+
+}
+.first{
+background-color: #FFFF00;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.f{
+font-weight: 700;
+
+}
+
+.second{
+background-color:#1ABC9C;
+height: 180px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.text{
+    font-family: sans-serif;
+}
+.s,.ss{
+color: #FFFFFF;
+font-family: sans-serif;
+}
+.s{
+font-weight: 700;
+font-size: 30px;
+}
+
+.textp{
+font-family: sans-serif;
+font-weight: 700;
+
+}
+
+
+.links{
+height: 40px;
+display: flex;
+background-color:#333333;
+flex-direction:row;
+align-items: center;
+text-decoration: none;
+
+
+}
+.link{
+color: white;
+margin-left: 20px;
+font-family: sans-serif;
+text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+display: flex;
+height:fit-content;
+margin-top: 35px;
+width: fit-content;
+margin-left: 20px;
+width: 97%;
+height: 100%;
+justify-content: space-between;
+
+
+}
+.lesshalf{
+display: flex;
+width: 30% ;
+flex-direction: column;
+
+
+}
+
+.bighalf{
+width: 67%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+
+font-weight: 500;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+
+.gray{
+border-radius: 1px;
+background-color:#AAAAAA;
+height: 200px;
+display: flex;
+padding: 10px;
+justify-content: space-between;
+
+
+}
+.thin{
+justify-content: space-between;
+height: 50px;
+margin-top: 20px;
+
+}
+.three{
+display: flex;
+justify-content: space-between;
+
+flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.uperend{
+width: 100%;
+display: flex;
+flex-direction: row;
+
+}
+
+.end{
+display: flex;
+height: 80px;
+background-color: #DDDDDD;
+justify-content: center;
+align-items: center;
+
+
+}
+.last{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}

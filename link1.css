@@ -1,0 +1,11 @@
+.text{
+font-size: 100px;
+font-family: sans-serif;
+}
+
+.all{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
