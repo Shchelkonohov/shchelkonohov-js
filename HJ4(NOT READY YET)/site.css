@@ -1,240 +1,164 @@
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-.all{
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-
-
-
-}
-.row{
-display: flex;
-width: 100%;
-
-
-
-}
-.first{
-background-color: #FFFF00;
-height: 60px;
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-.f{
-font-weight: 700;
-
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.second{
-background-color:#1ABC9C;
-height: 180px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
-}
-.text{
-    font-family: sans-serif;
-}
-.s,.ss{
-color: #FFFFFF;
-font-family: sans-serif;
-}
-.s{
-font-weight: 700;
-font-size: 30px;
+.row {
+  display: flex;
+  width: 100%;
 }
 
-.textp{
-font-family: sans-serif;
-font-weight: 700;
-
+.first {
+  background-color: #ffff00;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.links{
-height: 40px;
-display: flex;
-background-color:#333333;
-flex-direction:row;
-align-items: center;
-text-decoration: none;
-
-
-}
-.link{
-color: white;
-margin-left: 20px;
-font-family: sans-serif;
-text-decoration: none;
-
+.yellow {
+  font-weight: 700;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.main{
-display: flex;
-height:fit-content;
-margin-top: 35px;
-width: fit-content;
-margin-left: 20px;
-width: 97%;
-height: 100%;
-justify-content: space-between;
-
-
-}
-.lesshalf{
-display: flex;
-width: 30% ;
-flex-direction: column;
-
-
+.second {
+  background-color: #1abc9c;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.bighalf{
-width: 67%;
-
-
-
+.text {
+  font-family: sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p{
-
-font-weight: 500;
-margin-top: 30px;
-margin-bottom: 30px;
-
+.header,
+.afterheader {
+  color: #ffffff;
+  font-family: sans-serif;
 }
 
-.gray{
-border-radius: 1px;
-background-color:#AAAAAA;
-height: 200px;
-display: flex;
-padding: 10px;
-justify-content: space-between;
-
-
-}
-.thin{
-justify-content: space-between;
-height: 50px;
-margin-top: 20px;
-
-}
-.three{
-display: flex;
-justify-content: space-between;
-
-flex-direction: column;
-
+.header {
+  font-weight: 700;
+  font-size: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.uperend{
-width: 100%;
-display: flex;
-flex-direction: row;
-
+.links {
+  height: 40px;
+  display: flex;
+  background-color: #333333;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
 }
 
-.end{
-display: flex;
-height: 80px;
-background-color: #DDDDDD;
-justify-content: center;
-align-items: center;
-
-
+.link {
+  color: white;
+  margin-left: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
 }
-.last{
-    font-size: 25px;
-    font-family: sans-serif;
-    font-weight: 600;
 
+.main {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
 }
+
+.lesshalf {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.bighalf {
+  padding: 20px;
+  width: 100%;
+}
+
+p {
+  font-weight: 500;
+  margin: 20px 0;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.gray {
+  border-radius: 1px;
+  background-color: #aaaaaa;
+  height: 200px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.thin {
+  justify-content: space-between;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.three {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: column;
+}
+
+.uperend {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.end {
+  display: flex;
+  height: 80px;
+  background-color: #dddddd;
+  justify-content: center;
+  align-items: center;
+}
+
+.last {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+/* .header {
+  content: "";
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+} */
+
+/* @keyframes slidein {
+  0% {
+    opacity: 1;
+    color: blue;
+  }
+
+  50% {
+    opacity: 1;
+    color: yellow;
+  }
+
+  90% {
+    display: none;
+    opacity: 1;
+    color: red;
+  }
+} */
