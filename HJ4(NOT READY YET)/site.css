@@ -105,7 +105,7 @@ p {
   justify-content: space-between;
 }
 
-.thin {
+.thinimg {
   justify-content: space-between;
   height: 50px;
   margin-top: 20px;
@@ -117,7 +117,9 @@ p {
 
   flex-direction: column;
 }
-
+.second_title_heading {
+  margin-top: 60px;
+}
 .uperend {
   width: 100%;
   display: flex;
