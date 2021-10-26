@@ -19,7 +19,7 @@
 
 .first {
   background-color: #ffff00;
-  height: 60px;
+  padding: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@
 
 .second {
   background-color: #1abc9c;
-  height: 180px;
+  padding: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +51,7 @@
 .header {
   font-weight: 700;
   font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .links {
@@ -61,12 +62,19 @@
   align-items: center;
   text-decoration: none;
 }
+.link:hover {
+  background-color: rgb(94, 94, 94);
+}
 
 .link {
   color: white;
   margin-left: 20px;
   font-family: sans-serif;
   text-decoration: none;
+  height: 100%;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
 }
 
 .main {
