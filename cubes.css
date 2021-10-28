@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_box {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 200px;
+}
+
+.box1 {
+  border: solid black 6px;
+  height: 90%;
+  width: 90%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.balls1 {
+  border: solid 6px black;
+  height: 70px;
+  width: 70px;
+  border-radius: 40%;
+}
+.first {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.second {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.third {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.forth {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.under_box1 {
+  border: 6px solid black;
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  position: relative;
+}
+.balls2 {
+  border: solid 6px black;
+  height: 70px;
+  width: 70px;
+}
