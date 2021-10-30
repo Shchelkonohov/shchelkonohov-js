@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.above {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+  visibility: hidden;
+}
+.magic {
+  border: solid;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+#button:checked ~ label ~ div {
+  visibility: visible;
+}
+.btn {
+  height: 16px;
+  width: 30px;
+  border: 0.3px solid #767676;
+  border-radius: 3px;
+  padding: 1px 6px;
+  background-color: #efefef;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+
+.btn:hover {
+  background-color: #e2e0e0;
+}
+#button {
+  display: none;
+}
+
+.hover:hover ~ .above {
+  visibility: visible;
+}
+
+.hover {
+  position: absolute;
+  left: 70px;
+  top: 2px;
+}
