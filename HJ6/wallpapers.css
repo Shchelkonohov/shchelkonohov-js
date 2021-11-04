@@ -1,0 +1,66 @@
+.padding {
+  padding: 25px;
+  position: absolute;
+}
+body {
+  background: linear-gradient(to right, #2d3e51, #4a9dab);
+}
+.show {
+  width: 250px;
+  height: 250px;
+  border: #516e68 2px solid;
+  position: absolute;
+  border-radius: 4px;
+  transition: 1s;
+}
+.show:hover {
+  z-index: 999;
+  width: 300px;
+  height: 300px;
+  box-shadow: 7px 7px 20px rgb(238, 218, 218);
+}
+.box {
+  background-color: blue;
+}
+.box1 {
+  background-color: rgb(185, 159, 159);
+}
+.box3 {
+  background-color: rgb(6, 6, 39);
+}
+.box4 {
+  background-color: rgb(116, 128, 72);
+}
+.box5 {
+  background-color: rgb(255, 230, 0);
+}
+.box6 {
+  background-color: rgb(0, 204, 255);
+}
+.box7 {
+  background-color: rgb(201, 29, 164);
+}
+.box8 {
+  background-color: rgb(61, 255, 13);
+}
+.box9 {
+  background-color: rgb(159, 159, 223);
+}
+.box10 {
+  background-color: rgb(197, 133, 133);
+}
+.box11 {
+  background-color: rgb(75, 75, 83);
+}
+.box12 {
+  background-color: rgb(0, 255, 234);
+}
+.box13 {
+  background-color: rgb(20, 85, 45);
+}
+.box14 {
+  background-color: rgb(0, 195, 255);
+}
+.box15 {
+  background-color: rgb(200, 255, 0);
+}

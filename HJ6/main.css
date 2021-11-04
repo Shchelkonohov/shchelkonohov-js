@@ -1,3 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .link {
+  display: flex;
   text-decoration: none;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: rgb(202, 175, 228);
+  justify-content: center;
+}
+.all {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: linear-gradient(to bottom, #2d3e51, #4a9dab);
+}
+.link_every {
+  position: absolute;
+  bottom: 350px;
 }

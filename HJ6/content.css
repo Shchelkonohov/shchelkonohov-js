@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(to right, #2d3e51, #4a9dab);
+}
+.box {
+  width: 400px;
+  height: 100px;
+  border: solid;
+}
+/* first method */
+
+/* .box:hover {
+  border: 10px black solid;
+  margin: -7px; } */
+
+/* second method */
+
+.box {
+  position: absolute;
+}
+.facke_box {
+  width: 400px;
+  height: 120px;
+}
+
+.box:hover {
+  border: 10px black solid;
+}
