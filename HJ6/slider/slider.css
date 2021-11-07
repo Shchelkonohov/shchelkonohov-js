@@ -21,8 +21,8 @@ body {
   align-items: center;
 }
 .box {
-  width: 200px;
   height: 100px;
+  flex: 1;
   border-radius: 2px;
   border: solid black 5px;
   margin: 0 5px;
@@ -33,6 +33,6 @@ html {
 }
 
 .box:hover {
-  width: 470px;
+  flex: 3;
   height: 300px;
 }
