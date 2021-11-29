@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  border: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.color {
+  border: solid;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 300px;
+}
+
+.box {
+  width: 70%;
+  height: 70px;
+  border: solid;
+}
+.one {
+  background: rgb(57, 64, 139);
+  background: linear-gradient(
+    90deg,
+    rgba(57, 64, 139, 1) 0%,
+    rgba(0, 12, 255, 1) 50%,
+    rgba(57, 64, 139, 1) 100%
+  );
+}
+.uno {
+  background: rgba(0, 12, 255, 1);
+}
+.two {
+  background: rgb(135, 57, 139);
+  background: linear-gradient(
+    90deg,
+    rgba(135, 57, 139, 1) 0%,
+    rgba(222, 0, 255, 1) 50%,
+    rgba(135, 57, 139, 1) 100%
+  );
+}
+.duos {
+  background: rgba(222, 0, 255, 1);
+}
