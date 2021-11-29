@@ -15,7 +15,7 @@ body {
   height: 100%;
 }
 .color {
-  border: solid;
+  /* border: solid; */
   width: 10%;
   height: 100%;
   display: flex;
@@ -28,27 +28,7 @@ body {
   height: 70px;
   border: solid;
 }
-.one {
-  background: rgb(57, 64, 139);
-  background: linear-gradient(
-    90deg,
-    rgba(57, 64, 139, 1) 0%,
-    rgba(0, 12, 255, 1) 50%,
-    rgba(57, 64, 139, 1) 100%
-  );
-}
-.uno {
-  background: rgba(0, 12, 255, 1);
-}
-.two {
-  background: rgb(135, 57, 139);
-  background: linear-gradient(
-    90deg,
-    rgba(135, 57, 139, 1) 0%,
-    rgba(222, 0, 255, 1) 50%,
-    rgba(135, 57, 139, 1) 100%
-  );
-}
-.duos {
-  background: rgba(222, 0, 255, 1);
+button {
+  z-index: 999;
+  position: absolute;
 }
