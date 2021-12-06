@@ -6,7 +6,7 @@ if (x == 1 && y != 1) {
   console.log(whole + " стіл");
 } else if (x >= 5 || x === 0 || y == 1) {
   console.log(whole + " столів");
-} else if (x <= 4 && x === 0) {
+} else if (x <= 4 ) {
   console.log(whole + " столи");
 }
 if (NumbOfTabl < 0) {
