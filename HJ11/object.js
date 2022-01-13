@@ -1,9 +1,14 @@
 let consol = {
-    name: 'Sergiy',
-    message : function () {
-        alert("massage :")
-        }
-    }
+
+        
+  log: log(x){
+      
+  }
+}
+
+      
+
+
 
 console.log(consol);
 
