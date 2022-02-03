@@ -1,12 +1,12 @@
-function array_revers(numbers){
- numbers = ["one", "two", "three", "four"]
-   let n = numbers.length
-   // console.log(n);
-   for(let i = 0;i<n;i++){
-const newStrucrute = numbers
-console.log(newStrucrute);
-   }
+array = ["one", "two", "three", "four", 'five'];
+let i = 0;
+let j = array.length - 1;
 
+while(j>i){
+   let a = array[j]
+   array[j]=array[i] 
+   array[i]=a
+   j--
+   i++
 }
-
-array_revers();
+console.log(array)
