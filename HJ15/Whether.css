@@ -1,0 +1,13 @@
+.body{
+    border-radius: 20px;
+    display: flex;
+    height: 200px;
+    width: 500px;
+    box-shadow: 10px 10px 10px;
+    border: solid;
+    background-color: white;
+
+}
+body{
+    background-color: brown;
+}
