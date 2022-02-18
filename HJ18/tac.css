@@ -4,10 +4,11 @@ body {
 }
 
 h1 {
-    color: #469DE0;
-    font-size: 30px;
+    color: #042946;
+    font-size: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+
 }
 
 .above_all {
@@ -33,16 +34,18 @@ h1 {
 #b7,
 #b8,
 #b9 {
+    text-align: center;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     width: 100px;
     height: 70px;
     margin: 10px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 3px;
-    flex-direction: row;
-    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer
 }
 
 
@@ -72,19 +75,4 @@ h1 {
 
 #main {
     text-align: center;
-}
-
-#starting_screen {
-    font-family: Verdana,
-        Geneva, Tahoma, sans-serif;
-
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    color: rgb(0, 0, 0);
-    font-size: 14px;
-    width: 200px;
-    position: absolute;
-
-
 }
