@@ -1,0 +1,90 @@
+body {
+    background-color: #93726B;
+
+}
+
+h1 {
+    color: #469DE0;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.above_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    flex-direction: row;
+    position: relative;
+}
+
+
+#but {
+    box-sizing: border-box;
+    width: 85px;
+    height: 40px;
+    border: 1px solid rgb(62, 64, 175);
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(62, 73, 175);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#main {
+    text-align: center;
+}
+
+#starting_screen {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    width: 200px;
+    position: absolute;
+
+
+}
